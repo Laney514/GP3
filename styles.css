@@ -1,0 +1,264 @@
+@charset "UTF-8";
+body {
+    color: #191919;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+    font-size: 25px;
+    background-size: cover;
+    background-image: url(../images/pinkbackground.png);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	margin: auto;
+}
+#container{
+    width: 1280px;
+    height: auto;
+    background-color: #FFFFFF;
+	margin: auto;
+}
+
+header {
+    width: 1280px;
+    height: 220px;
+    background-size: contain;
+    background-image: url(../images/mylogo.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-position: center;
+    background-color: #FDE4E2;
+}
+
+h1 {
+    color: #e49fb3;
+  font-family: "filosofia", serif;
+font-weight: 400;
+font-style: italic;
+	font-size: 35px;
+}
+
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+
+}
+.floatLeft {
+	float: left;
+
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+
+h3 {
+	font-family: "mundial-narrow-variable", sans-serif;
+font-variation-settings: "wght" 400;
+    font-size: 12px;
+}
+/*Float the Main so it shows up nect to the Aside. Reduce width by 150px so they both line up with the header*/
+main {
+    width: 1100px;
+    height: 1200px;
+    /* [disabled]background-color: #193EFF; */
+    float: left;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+video {
+    width: 420px;
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 300px;
+    height: 250px;
+}
+
+table {
+    border-color: #FBE7ED;
+}
+/*Clear the float so the footer shows up in the right place again*/
+footer {
+    width: 1000px;
+    height: 50px;
+    /* [disabled]background-color: #FFA400; */
+    clear: both;
+    color: #E49FB3;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    padding-left: 280px;
+}
+/*Float the Aside so it displays next to Main*/
+aside {
+    width: 130px;
+    height: 600px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #FFF5F5;
+}
+
+p {
+	font-family: "mundial-narrow-variable", sans-serif;
+font-variation-settings: "wght" 100;
+}nav {
+    width: 1000px;
+    height: 50px;
+    border: thick dotted #FFF5F5;
+    padding-bottom: 30px;
+    margin: auto;
+    padding-left: 270px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 38px;
+    margin-bottom: 0px;
+    color: #e49fb3;
+    font-family: "filosofia", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 26px;
+    width: 80px;
+}
+#container nav ul {
+    margin: auto;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav a:link {
+    color: #e49fb3;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #B95E78;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #B95E78;
+}
+nav a:active {
+    text-decoration: none;
+    color: #B95E78;
+}
+
+.submit_btn {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #FFF5F5;
+    border-width: thin;
+    -webkit-box-shadow: 1px 1px 50px 0.1px #E49FB3;
+    box-shadow: 1px 1px 50px 0.1px #E49FB3;
+}
+
+.submit_btn:hover {
+    -webkit-box-shadow: 1px 1px 50px 0.1px #EC6E93;
+    box-shadow: 1px 1px 50px 0.1px #EC6E93;
+}
+.column {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.nav {
+}
+/*Rules the page will follow for Tablet-sized devices*/
+@media (max-width: 1024px){
+	#container {
+		width: 768px;
+	}
+	
+	header {
+		width: 768px;
+	}
+	
+	nav {
+    width: 740px;
+    padding-left: 18px;
+	}
+	main {
+		width: 598px;
+	}
+	footer {
+    width: 768;
+    padding-left: 0px;
+	}
+	
+	.column {
+		margin: 0px 20px 0px 25px;
+	}
+	
+	.cclicense {
+    width: 500px;
+    height: 20px;
+    clear: both;
+    padding-left: 300px;
+    top: 1000px;
+    margin-top: 10px;
+	}
+	
+	
+}
+
+/*Rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+	#container {
+		width: 300px;
+		height: 3000px;
+
+	}
+	
+	header {
+		width: 300px;
+	}
+	
+	nav {
+    width: 270px;
+    height: 200px;
+	}
+	main {
+		width: 300px;
+	}
+	footer {
+    width: 300px;
+    padding-top: 1480px;
+    font-size: 10px;
+	}
+	
+	.column {
+		margin: 0px 20px 0px 25px;
+	}
+	aside {
+		display: none;
+	}
+	
+	#container nav li {
+    display: list-item;
+    list-style-type: none;
+    float: none;
+    margin: 0px 0px 20px 0px;
+    width: 260px;
+    padding-left:50px;
+	}
+
+	
+}
+.cc {
+    width: 10px;
+}
